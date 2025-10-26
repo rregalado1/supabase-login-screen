@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# 🔐 Supabase Login Screen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive **Login Screen** built with **React** and **Supabase Authentication**.
 
-## Available Scripts
+This project allows users to **sign in, reset their password**, and securely manage sessions using Supabase as the backend.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔑 User login with email and password  
+- 🔁 Password recovery flow  
+- 🧠 Supabase authentication integration  
+- 📱 Responsive and minimalist design  
+- ⚡ Fast setup and local development  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧰 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** (Create React App)  
+- **Supabase** (Authentication API)  
+- **JavaScript / JSX**  
+- **CSS** for styling  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/rregalado1/supabase-login-screen.git
+cd supabase-login-screen
+npm install
+Create a .env file in the root directory and add your Supabase credentials:
 
-### `npm run eject`
+env
+Copiar código
+REACT_APP_SUPABASE_URL=your-supabase-url
+REACT_APP_SUPABASE_ANON_KEY=your-anon-key
+Start the app in development mode:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copiar código
+npm start
+Open http://localhost:3000 to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🖼️ Preview
+(Add a screenshot or GIF of your login screen here)
+Example:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+markdown
+Copiar código
+![App Screenshot](./preview.png)
+📁 Project Structure
+pgsql
+Copiar código
+supabase-login-screen/
+├── src/
+│   ├── components/
+│   ├── supabaseClient.js
+│   ├── App.js
+│   ├── index.js
+│   └── ResetPassword.js
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── .gitignore
+├── package.json
+└── README.md
+🧠 Learnings
+This project helped me practice:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Setting up authentication flows with Supabase
 
-## Learn More
+Managing environment variables in React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Using React Hooks for state and form handling
