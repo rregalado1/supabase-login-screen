@@ -25,11 +25,6 @@ This project allows users to **sign in, reset their password**, and securely man
 
 ---
 
-### ⚙️ Setup
-
-Clone the repository:
-
-```bash
 
 🖼️ Preview
 (soon)
