@@ -25,6 +25,15 @@ This project allows users to **sign in, reset their password**, and securely man
 
 ---
 
+🧠 Learnings
+
+This project helped me practice:
+
+Setting up authentication flows with Supabase
+
+Managing environment variables in React
+
+Using React Hooks for state and form handling
 
 🖼️ Preview
 (soon)
