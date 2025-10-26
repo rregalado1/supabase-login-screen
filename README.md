@@ -6,7 +6,7 @@ This project allows users to **sign in, reset their password**, and securely man
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - 🔑 User login with email and password  
 - 🔁 Password recovery flow  
@@ -16,7 +16,7 @@ This project allows users to **sign in, reset their password**, and securely man
 
 ---
 
-## 🧰 Tech Stack
+### 🧰 Tech Stack
 
 - **React** (Create React App)  
 - **Supabase** (Authentication API)  
@@ -25,55 +25,11 @@ This project allows users to **sign in, reset their password**, and securely man
 
 ---
 
-## ⚙️ Setup
+### ⚙️ Setup
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/rregalado1/supabase-login-screen.git
-cd supabase-login-screen
-npm install
-Create a .env file in the root directory and add your Supabase credentials:
-
-env
-Copiar código
-REACT_APP_SUPABASE_URL=your-supabase-url
-REACT_APP_SUPABASE_ANON_KEY=your-anon-key
-Start the app in development mode:
-
-bash
-Copiar código
-npm start
-Open http://localhost:3000 to view it in your browser.
 
 🖼️ Preview
-(Add a screenshot or GIF of your login screen here)
-Example:
-
-markdown
-Copiar código
-![App Screenshot](./preview.png)
-📁 Project Structure
-pgsql
-Copiar código
-supabase-login-screen/
-├── src/
-│   ├── components/
-│   ├── supabaseClient.js
-│   ├── App.js
-│   ├── index.js
-│   └── ResetPassword.js
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── .gitignore
-├── package.json
-└── README.md
-🧠 Learnings
-This project helped me practice:
-
-Setting up authentication flows with Supabase
-
-Managing environment variables in React
-
-Using React Hooks for state and form handling
+(soon)
