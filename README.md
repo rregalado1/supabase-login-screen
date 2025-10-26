@@ -25,7 +25,7 @@ This project allows users to **sign in, reset their password**, and securely man
 
 ---
 
-🧠 Learnings
+### 🧠 Learnings
 
 This project helped me practice:
 
