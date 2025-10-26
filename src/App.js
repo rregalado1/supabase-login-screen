@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { useMemo, useState } from 'react'
+import Login from './Login'
+import Dashboard from './Dashboard'
+import ResetPassword from './ResetPassword'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+  const [loggedIn, setLoggedIn] = useState(false)
+
+  const isRecovery = useMemo(
+    () => typeof window !== 'undefined' && window.location.hash.includes('type=recovery'),
+    []
+  )
+
+  if (isRecovery) return <ResetPassword />
+  return loggedIn ? <Dashboard /> : <Login onLoggedIn={() => setLoggedIn(true)} />
 }
-
-export default App;
