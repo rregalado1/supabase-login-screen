@@ -36,4 +36,5 @@ Managing environment variables in React
 Using React Hooks for state and form handling
 
 🖼️ Preview
-(soon)
+<img width="968" height="728" alt="image" src="https://github.com/user-attachments/assets/64b3b7ff-adf2-4eb1-810d-2edd3e1f1e86" />
+
